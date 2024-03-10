@@ -1,0 +1,24 @@
+.table{
+width: 100%;
+border: 1px solid black;
+border-collapse: collapse;
+}
+tr{
+    background-color: rgb(245, 237, 237);
+    border-bottom: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color: rgba(71, 61, 139, 0.418);
+}
+tr:hover{
+    background-color: lightslategray;
+}
+td,th{
+/* border: 1px solid black; */
+padding: 10px 20px;
+}
+th{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+}

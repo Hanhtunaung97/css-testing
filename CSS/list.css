@@ -1,0 +1,29 @@
+.vertical-list{
+border: 1px solid black;
+list-style: none;
+padding: 10px;
+width: 200px;
+}
+.vli{
+border: 1px solid black;
+padding: 10px 20px;
+margin-bottom: 10px;
+text-align: center;
+}
+.vli:last-child{
+    margin: 0;
+}
+.horizontal-list{
+    border: 1px solid black;
+    list-style: none;
+    padding: 10px;
+    width:100%;
+    }
+    .hli{
+    border: 1px solid black;
+    padding: 10px 20px;
+    /* margin-bottom: 10px; */
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo class</title>
+    <style>
+        .x {
+            border: 3px solid black;
+            padding: 15px;
+            transition:background-color 1s,color 3s;
+        }
+        .x:hover {
+            background-color: rgb(71, 32, 4);
+            color: rgb(14, 194, 185);
+            border-radius: 40px;
+            box-shadow: 0 0 30px black;
+        } 
+        /* .x:active {
+            background-color: darkgreen;
+        } */
+        .y{
+            width: 300px;
+            padding: 10px;
+            font-size: 20px;
+            margin-top: 50px;
+            border: 3px solid rgba(1, 1, 14, 0.911);
+            border-radius: 15px;
+        }
+        .y:focus{
+            background-color: rgb(207, 105, 160);
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <h1>Min Ga Lar Par</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos temporibus rem ut eaque, atque hic quis tenetur est? Reiciendis a laborum esse vel voluptatum! Sed illum culpa nulla voluptates! Totam.
+        </p>
+    </div>
+    <br>
+    <input type="text" class="y">
+</body>
+</html>

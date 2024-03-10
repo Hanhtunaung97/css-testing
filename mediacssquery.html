@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            border: 3px solid black;
+            padding: 10px;
+            background-color: cornsilk;
+        }
+        .t{
+            display: none;
+        }
+        @media screen and (max-width:1000px) {
+            .box{
+                background-color: gold;
+            }
+        }
+        @media screen and (max-width:600px) {
+            .box{
+                background-color: darkslategray;
+            }
+        }
+        @media print {
+            .box{
+                font-size: 40px;
+                font-family:sans-serif;
+            }
+            .t{
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi distinctio repellat soluta culpa rem adipisci asperiores veritatis, illum non hic impedit error quidem iste officia possimus, voluptatibus, fugit earum!
+    </div>
+    <p class="t">THANK YOU!</p>
+</body>
+</html>
